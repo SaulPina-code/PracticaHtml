@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ h1{
+    height: 3rem;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    border: 3px solid black;
+    text-align: center;
+}

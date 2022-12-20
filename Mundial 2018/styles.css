@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bordeDeImagen{
+border: 2px solid rgb(245, 188, 188);
+background-color:rgb(185, 185, 221) ;/* color de fondo */
+display: flex;
+flex-direction: column;
+justify-content: center;
+    color:rgb(0, 0, 0);
+}*{
+    margin: 4px;
+    padding: 4px;
+}
+
+
+
+.container{
+    display:flex;
+    flex-direction: column;/* row o column */
+    justify-content: space-around; /* cuando el flex esta en direction row , justify content altera el eje x, y cuando el flex direction esta en column este altera el eje y */
+    align-items: center;/* cuando el flex esta en direction row , aling-items altera el eje y, y cuando el flex direction esta en column este altera el eje x */
+    height: 40rem;
+    width: 40rem;
+ 
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    /* el flex direction por defecto siempre viene el row  */
+    border: 1px solid red;
+
+    
+}
+
+
+.navBar{
+    background-color: lightsalmon;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.imgNavBar{
+    border-radius: 10rem;
+    height: 4rem;
+    width: 5rem;
+}
+.aContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aContainer a{
+    display: flex;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightblue ;
+    color: black;
+
+    /* investigar que es y para que sirve  */
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 1rem;
+
+} .padre{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}

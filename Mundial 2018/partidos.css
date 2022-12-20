@@ -1,0 +1,20 @@
+    .titulo{
+        background-color: rgb(231, 155, 14);
+        margin: 11px;
+        padding: 19px;
+        display:flex;
+        flex-direction: column;/* row o column */
+        justify-content: space-around; /* cuando el flex esta en direction row , justify content altera el eje x, y cuando el flex direction esta en column este altera el eje y */
+        align-items: center;/* cuando el flex esta en direction row , aling-items altera el eje y, y cuando el flex direction esta en column este altera el eje x */
+        height: 1rem;
+        width: 75rem;
+     
+    }
+    .flex{
+        padding: 2px;
+        margin: 3px;
+        display: flex;
+        justify-content: center;
+        width: 19rem;
+        font-size: larger;
+}
